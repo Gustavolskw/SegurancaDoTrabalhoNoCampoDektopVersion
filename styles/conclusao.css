@@ -1,0 +1,53 @@
+.conteudo_conclusao-conc {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 3rem 0 3rem;
+}
+.apresentacao_texto-conc {
+  color: white;
+  font-family: var(--font-terciaria);
+  padding: 1rem 2rem 0 2rem;
+  font-weight: 800;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  border-radius: 3rem;
+  background-color: var(--azul-royal);
+}
+.texto_apresnt-conc {
+  margin: 2rem;
+}
+
+.conclusao-vid {
+  border-radius: 4rem;
+}
+.img-agricultor {
+  padding: 1rem;
+  width: 50%;
+  margin-left: 20%;
+}
+.titulo-rodape {
+  font-family: var(--font-terciaria);
+}
+.footer {
+  color: white;
+  background-color: #808080;
+  font-size: 1.5rem;
+}
+.lista-rodape-item {
+  padding-top: 1rem;
+  width: 80%;
+}
+.titulo-rodape {
+  color: var(--azul-royal);
+}
+.rodape-texto {
+  padding: 1rem;
+}
+.lista-rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

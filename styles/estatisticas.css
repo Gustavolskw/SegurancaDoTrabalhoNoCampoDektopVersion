@@ -1,0 +1,63 @@
+.estatisticas {
+  font-style: var(--font-principal);
+}
+
+.estatisticas_conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+}
+.geral_btn.active {
+  border-radius: 0.8rem;
+  background: var(--azul-royal);
+  font-weight: 600;
+}
+.conteudo_lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1.6rem;
+}
+.geral_btn {
+  font-family: var(--font-secundaria);
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  background: none;
+  padding: 0.8rem;
+  color: var(--color-secondary);
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+}
+.app__image-figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem 0 0 0;
+}
+.imagens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin: 2rem 0 2rem 0;
+}
+.app__image {
+  width: 36rem;
+}
+.Video_cena {
+  display: none;
+}
+.Video_cena.active {
+  width: 25rem;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+}

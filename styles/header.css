@@ -1,0 +1,23 @@
+.Header {
+  width: 100%;
+  top: 0;
+  padding: 0.5;
+  background-color: #335104;
+}
+
+.header_list {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  list-style-type: none;
+  gap: 3rem;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+.header_list_item a {
+  text-decoration: none;
+  color: white;
+  font-family: var(--font-principal);
+  font-size: 1rem;
+}

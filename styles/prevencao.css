@@ -1,0 +1,45 @@
+.geral_btn-prev {
+  font-family: var(--font-secundaria);
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  background: none;
+  padding: 0.8rem;
+  color: var(--color-secondary);
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+}
+.geral_btn-prev.active {
+  border-radius: 0.8rem;
+  background: var(--azul-royal);
+  font-weight: 600;
+}
+.prevencao_conteudo.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+.prevencao_conteudo {
+  display: none;
+}
+.img_prevencao {
+  border-radius: 4rem;
+  width: 80%;
+}
+.video_prevencao-cena {
+  width: 60%;
+  padding: 1rem;
+}
+.videos_prevencao-conteudo {
+  flex-direction: column;
+}
+.video_prevencao-trator {
+  width: 60%;
+}
+.videos_prevencao {
+  margin-left: 5rem;
+}

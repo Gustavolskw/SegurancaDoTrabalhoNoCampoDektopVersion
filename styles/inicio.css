@@ -1,0 +1,29 @@
+.inicio {
+  padding-bottom: 2rem;
+  background-image: url("../img/Fique-por-dentro-dos-mitos-e-verdades-sobre-defensivos-agricolas-Agrigent-1024x576.jpg");
+}
+.conteudo_inicio {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.video_inicio {
+  border-radius: 2rem;
+  width: 25%;
+  position: relative;
+  margin: 1rem 2rem 1rem 15rem;
+}
+.video_trator {
+  width: 45%;
+  padding: 2rem;
+  border-radius: 4rem;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  width: 3rem;
+  padding-left: 1rem;
+}
