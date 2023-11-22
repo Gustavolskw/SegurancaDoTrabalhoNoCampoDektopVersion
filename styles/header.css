@@ -3,6 +3,7 @@
   top: 0;
   padding: 0.5;
   background-color: #335104;
+  border-bottom: 1px solid #eee;
 }
 
 .header_list {
@@ -13,11 +14,33 @@
   list-style-type: none;
   gap: 3rem;
   padding: 1rem;
-  border-bottom: 1px solid #eee;
 }
 .header_list_item a {
   text-decoration: none;
   color: white;
   font-family: var(--font-principal);
   font-size: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .Header {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    text-align: end;
+  }
+  .header_list {
+    width: 80%;
+
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+  }
+  .header_list_item a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-principal);
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 604px) {
 }
